@@ -10,7 +10,7 @@ public class Banka {
     {
         this.connection=DriverManager.getConnection(connectionString);
     }
-    
+    //fff
     public void disconnect() throws SQLException
     {
         if(connection!=null && !connection.isClosed())
