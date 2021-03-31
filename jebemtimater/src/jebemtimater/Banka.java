@@ -5,7 +5,7 @@ import java.sql.*;
 public class Banka {
     Connection connection;
     static String connectionString = "jdbc:sqlite:Banka.db";
-    
+    int milica=1000;
     public void connect() throws SQLException
     {
         this.connection=DriverManager.getConnection(connectionString);
